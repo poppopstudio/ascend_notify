@@ -1,0 +1,6 @@
+notification_service: uk
+api_key: null
+default_template_id: null
+default_sms_template_id: null
+force_temporary_failure: 0
+force_permanent_failure: 0

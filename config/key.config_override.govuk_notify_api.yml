@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - govuk_notify.settings
+    - key.key.govuk_notify_api
+id: govuk_notify_api
+label: 'GovUK Notify API'
+config_type: system.simple
+config_prefix: ''
+config_name: govuk_notify.settings
+config_item: api_key
+key_id: govuk_notify_api

@@ -1,0 +1,17 @@
+{
+    "name": "poppopstudio/ascend_notify",
+    "description": "Ascend project GovUK Notify installer",
+    "type": "drupal-recipe",
+    "authors": [
+        {
+            "name": "NikLP",
+            "homepage": "https://github.com/poppopstudio/ascend_base",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/core": "^10.5",
+        "drupal/govuk_notify": "^3.2",
+        "drupal/key": "^1.20"
+    }
+}

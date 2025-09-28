@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - govuk_notify.settings
+    - key.key.govuk_notify_sms_template
+id: govuk_notify_sms
+label: 'GovUK Notify SMS'
+config_type: system.simple
+config_prefix: ''
+config_name: govuk_notify.settings
+config_item: default_sms_template_id
+key_id: govuk_notify_sms_template

@@ -1,0 +1,17 @@
+name: 'Ascend Notify install'
+description: 'Ascend project GovuK Notify installer'
+type: 'Site'
+install:
+  - govuk_notify
+  - key
+config:
+  strict: true
+  import:
+    govuk_notify: '*'
+    key: '*'
+  actions:
+    system.mail:
+      createIfNotExists:
+        govuk_notify: govuk_notify_mail
+      simpleConfigUpdate:
+        default: govuk_notify_mail
