@@ -11,7 +11,8 @@ config:
     key: '*'
   actions:
     system.mail:
-      createIfNotExists:
-        govuk_notify: govuk_notify_mail
       simpleConfigUpdate:
-        default: govuk_notify_mail
+        interface:
+          govuk_notify: govuk_notify_mail
+          # This sets the default system mail sender
+          default: govuk_notify_mail
